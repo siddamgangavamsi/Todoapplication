@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content:center;
+    background-image: url("background.jpg");
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    border: 1px solid black;
+    margin-top: 10px; 
+    box-shadow: 2px 2px 2px 2px ;
+    border-radius: 5px;
+    
+ }
+#inputVal{
+    height: 30px;
+    font-size:15px;
+    
+   
+}
+#btn1{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 7px;
+}
+#btn2{
+    width: 50px;
+    height: 40px;
+    background-color:red;
+    border-radius: 7px;
+    margin-top: 7px;
+}
+.bi-pencil-square{
+    padding-left: 200px;
+}
+.ul-li{
+    list-style-type:square;
+}
